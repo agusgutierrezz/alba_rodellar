@@ -9,16 +9,16 @@ const HeaderSlider = () => {
     const delay = 5000;
     const slides = [
         {
-            title:"Blapp",
-            source:"./images/blapp.png"
+            title:"Festival de Sitges",
+            source:"header-4.png"
         },
         {
             title:"Fecec",
-            source:"./images/fecec.png"
+            source:"header-7.png"
         },
         {
-            title:"Vidapolis",
-            source:"./images/vidapolis.png"
+            title:"Sant Joan de Deu",
+            source:"header-5.png"
         }
       ];
       const [index, setIndex] = useState(0);

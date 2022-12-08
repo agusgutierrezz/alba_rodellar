@@ -14,7 +14,7 @@ const [hasVideo,setHasVideo] = useState(thisWork.video ? true : false);
 
 
  const listItems = thisWork.services.map((number,key) =>
-    <li key={key}>{number}</li>
+    <li className="category-tag" key={key}>{number}</li>
   );
 
 
@@ -27,18 +27,19 @@ const [hasVideo,setHasVideo] = useState(thisWork.video ? true : false);
       <div className="header-img">
         <img src={thisWork.image_header} alt="" />
       </div>
-      <div className="info-wrapper">
+      <div className="info-wrapper container">
         <div className="col-left">
            <h1>{thisWork.name}</h1>
+           <p>{thisWork.description}</p>
         </div>
-        <div className="col-right"></div>
+        <div className="col-right">
           <div className="row">
             <span>Client</span>
             <p>{thisWork.company}</p>
           </div>
           <div className="row">
             <span>Services</span>
-            <ul>{listItems}</ul>
+            <ul className="categories">{listItems}</ul>
           </div>
           <div className="row">
             <span>Link</span>
@@ -46,8 +47,9 @@ const [hasVideo,setHasVideo] = useState(thisWork.video ? true : false);
               <p>{thisWork.link.text}</p>
             </a>
           </div>
+          </div>
       </div>
-      <div className="bottom">
+      <div className="bottom container">
       { hasVideo &&
        <video src={require("./../assets/" + thisWork.video) } loop muted autoPlay>
         Tu navegador no admite el elemento <code>video</code>.

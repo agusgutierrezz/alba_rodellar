@@ -5,7 +5,7 @@ const Slide = (props) => {
   return (
     <div className="slide">
         <div className="overlay"></div>
-        <img src={props.source} alt="Example" className="" />
+        <img src={require("./../assets/" + props.source) } alt="Example" className="" />
         <div className="slide-texts container">
         <p className="title">{props.title}</p>
         <span className="counter">{props.number} | {props.total}</span>

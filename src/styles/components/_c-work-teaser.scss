@@ -5,11 +5,15 @@
   column-gap: 2.25rem;
   gap:2rem;
   .project-teaser{
-    width: calc(50% - 1.25rem);
     height: 424px;
     overflow: hidden;
     border-radius: 25px;
+    width: 100%;
 
+    @media (min-width: $breakpoint-tablet) {
+      width: calc(50% - 1.25rem);
+  
+    }
     &:nth-child(3n+1) {
       width: 100%;
     }

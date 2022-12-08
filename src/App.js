@@ -13,7 +13,11 @@ function App() {
     <div className="App">
         <header className="header b-branding container">
         <div className='logo'>
+        <Link to={"/"}>
+
         <img  src={logo} alt="logo"/>
+        </Link>
+
         </div>
         <div className='brand'>
           <span>alba</span><span>rodellar</span> 
