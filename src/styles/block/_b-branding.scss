@@ -1,0 +1,19 @@
+.b-branding {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-width: $breakpoint-tablet) {
+        padding: 2.5rem 0;
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        font-family: $poppins-semibold;
+        line-height: 2rem;
+    }
+}
+

@@ -1,0 +1,29 @@
+$breakpoint-tablet: 768px;
+$red:red;
+$breakpoint-desktop: 1200px;
+$breakpoint-xl: 1400;
+@font-face {
+    font-family: "Poppins Regular";
+    src: local("Poppins Regular"),
+     url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype')
+  }
+  @font-face {
+    font-family: "Poppins SemiBold";
+    src: local("Poppins SemiBold"),
+     url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype')
+  }
+  @font-face {
+    font-family: "Poppins Bold";
+    src: local("Poppins Bold"),
+     url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype')
+  }
+    @font-face {
+    font-family: "Playfair Medium";
+    src: local("Playfair Medium"),
+     url('../fonts/Playfair/PlayfairDisplay-Regular.ttf') format('truetype')
+  }
+$poppins: "Poppins Regular";
+$poppins-semibold: "Poppins SemiBold";
+$poppins-bold: "Poppins Bold";
+$playfair-medium:"Playfair Medium";
+$typo:#232323;

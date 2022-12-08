@@ -1,0 +1,107 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  @media (min-width: $breakpoint-tablet) {
+    padding: 3rem 0 6rem;
+
+
+  }
+
+  .text-wrapper {
+    @media (min-width: $breakpoint-tablet) {
+      width: 50%;
+
+    }
+
+    p {
+      font-size: clamp(1.5rem, -0.875rem + 10vw, 2.5rem);
+      margin-top: 0;
+    }
+  }
+}
+
+.btn-primary {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 14px 27px;
+  border-radius: 100px;
+  background-color: #5096FF;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.5s cubic-bezier(0.094, 0.662, 0.468, 0.948), background 0s linear;
+  transition-delay: 0s, 0.3s;
+
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #F1FF4E;
+    transition: transform 0.5s cubic-bezier(0.84, -0.01, 0.25, 0.99);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 27px;
+    margin: auto 0;
+  }
+
+  &:hover {
+    background-color: transparent;
+
+    &:after {
+      transform: scale(50);
+    }
+
+    .button-content-wrap {
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    .button-text {
+      color: $typo;
+    }
+  }
+}
+
+.button-content-wrap {
+  position: relative;
+  z-index: 1;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.094, 0.662, 0.468, 0.948);
+  transition: transform 0.5s cubic-bezier(0.094, 0.662, 0.468, 0.948);
+  transition: transform 0.5s cubic-bezier(0.094, 0.662, 0.468, 0.948),
+    -webkit-transform 0.5s cubic-bezier(0.094, 0.662, 0.468, 0.948);
+
+  &:after {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-image: url(../../assets/ico-play.svg);
+    background-position: 0 0px, -15px -15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.84, -0.01, 0.25, 0.99);
+    margin-left: 22px;
+    animation-name: buttonArrow;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+  }
+}
+
+.button-text {
+  z-index: 1;
+  position: relative;
+
+  display: inline-block;
+  -webkit-transition: color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}

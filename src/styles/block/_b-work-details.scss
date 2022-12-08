@@ -1,0 +1,10 @@
+.b-work-detail{
+    .header-img{
+        width: calc(100% - 4rem);
+        margin: 0 auto;
+        img{
+        border-radius: 25px;
+        width: 100%;
+        }
+    }
+}

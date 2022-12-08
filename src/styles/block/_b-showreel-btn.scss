@@ -1,0 +1,83 @@
+.showreel-btn {
+    position: fixed;
+    right: -80px;
+    background-color: #F1FF4E;
+    transform: rotate(-90deg);
+    top: 50%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    z-index: 999;
+    a {
+        font-size: 1.3rem;
+        padding: 10px 16px 10px 0;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        overflow: hidden;
+        transition: transform .3s cubic-bezier(0.094, 0.662, 0.468, 0.948);
+        will-change: transform;
+        &:after {
+            content: "";
+            background-image: url("../../assets/logo.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 25px;
+            height: 25px;
+            transform: rotate(90deg);
+            margin-left: .5rem;
+            opacity: 1;
+
+            transition: transform .3s cubic-bezier(0.094, 0.662, 0.468, 0.948), opacity .3s ease;
+
+        }
+
+        &:before {
+            content: "";
+            background-image: url("../../assets/ico-play.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 25px;
+            transform: translateX(-50px);
+            height: 25px;
+            opacity: 0;
+            transition: transform .3s cubic-bezier(0.094, 0.662, 0.468, 0.948), opacity .3s ease;
+
+        }
+
+        &:hover {
+            transform: translateX(20px);
+
+            &:before {
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            &:after {
+                transform: translateX(50px) rotate(90deg);
+                opacity: 0;
+
+            }
+        }
+    }
+}
+
+.showreel-page {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: #F1FF4E;
+    border-radius: 51%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 200%;
+    z-index: 3;
+    height: 200vh;
+    transition: transform .3s cubic-bezier(0.094, 0.662, 0.468, 0.948);
+
+    &.visible {
+        transform: translate(-50%, -50%) scale(1);
+
+    }
+}
