@@ -2,7 +2,7 @@ import './App.scss';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import WorkDetail from "./components/WorkDetail";
-import Showreel from './components/ShowReel';
+import ShowreelBtn from './components/ShowReelBtn';
 import logo from './logo.svg';
 
 import { Link, Route, Routes, BrowserRouter } from "react-router-dom";
@@ -23,7 +23,7 @@ function App() {
           <span>alba</span><span>rodellar</span> 
         </div>
       </header>
-      <Showreel/>
+      <ShowreelBtn/>
        <Routes>
           <Route exact path="/" element={<Home />}>
           </Route>

@@ -22,7 +22,7 @@ const About = forwardRef((props, ref) => {
       </div>
 		</a>
         </div>
-        <div onClick={handleOpen} className={conditionalStyle}></div>
+
       </div>
     );
   });

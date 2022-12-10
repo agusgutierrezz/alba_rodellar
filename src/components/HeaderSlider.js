@@ -3,14 +3,19 @@ import Slide from "./Slide"
 import { gsap, ScrollTrigger } from "gsap/all";
 import ScrollBtn from "./ScrollBtn";
 import About from "./About";
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay,EffectFade } from "swiper";
+import "swiper/css/effect-fade";
+// Import Swiper styles
+import 'swiper/css';
 const HeaderSlider = () => {
-    const resultRef = useRef(null);
-    const delay = 5000;
+const resultRef=useRef(null)
+const root=useRef(null)
+
     const slides = [
         {
-            title:"Festival de Sitges",
-            source:"header-4.png"
+            title:"Blapp",
+            source:"header-2.png"
         },
         {
             title:"Fecec",
@@ -21,64 +26,34 @@ const HeaderSlider = () => {
             source:"header-5.png"
         }
       ];
-      const [index, setIndex] = useState(0);
-      const timeoutRef = useRef(null);
-    
-      function resetTimeout() {
-        if (timeoutRef.current) {
-          clearTimeout(timeoutRef.current);
-        }
-      }
-
-      useEffect(() => {
-        resetTimeout();
-        timeoutRef.current = setTimeout(
-          () =>
-            setIndex((prevIndex) =>
-              prevIndex === slides.length - 1 ? 0 : prevIndex + 1
-            ),
-          delay
-        );
-    
-        return () => {
-          resetTimeout();
-        };
-      }, [index]);
-
-      const root = useRef();
-      const q = gsap.utils.selector(root);
-      
-      useEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-
-        gsap.to(q(".b"), {
-          x: -50,
-          scrollTrigger: {
-            trigger: (".highlighted-container"),
-            start: "top top",
-            end: "bottom bottom",
-            scrub:0.5,
-          }
-        });
-    });
+ 
   return (
     <div className="highlighted-container">
-        <div className="slideshow">
- 
-        <div
-          className="slideshowSlider"
-          style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-        >
-       {slides.map((slide,i) => (
-          <Slide  key={`${slide.title}_${i}`} total = {slides.length} number = {i + 1} title={slide.title} source={slide.source} />
-        ))}
-          
-        </div>
-        </div>
-        <div ref={root} className="skills-row">
+  
+    <Swiper
+    spaceBetween={50}
+    slidesPerView={1}
+    autoPlay ={true}
+    effect={"fade"}
+    autoplay={{
+      delay: 3500,
+      disableOnInteraction: false,
+    }}
+    modules={[Autoplay,EffectFade]}
+    onSlideChange={() => console.log('slide change')}
+    onSwiper={(swiper) => console.log(swiper)}
+    >
+            {slides.map((slide,i) => (
+      
+      <SwiperSlide key={`${slide.title}_${i}`}><Slide  key={`${slide.title}_${i}`} total = {slides.length} number = {i + 1} title={slide.title} source={slide.source} /></SwiperSlide>
+  
+      ))}
+    </Swiper>
+    <div ref={root} className="skills-row">
             <p className="b"> Branding    |    UX UI   |   Motion graphics   |   Ilustración   |   Social media   |   Animación   |   Branding    |    UX UI   |   Motion graphics   |   Ilustración   |   Social media   |   Animación   |  Branding    |    UX UI   |   Motion graphics   |   Ilustración   |   Social media   |   Animación   |   Branding    |    UX UI   |   Motion graphics   |   Ilustración   |   Social media   |   Animación  </p> 
         </div>
         <ScrollBtn resultRef={resultRef}/>
+
         <About ref={resultRef}/>
 
         </div>

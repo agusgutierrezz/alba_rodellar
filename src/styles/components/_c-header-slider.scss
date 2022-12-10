@@ -1,29 +1,13 @@
 .highlighted-container{
     position: relative;
 }
-.slideshow {
-    margin: 0 auto;
-    overflow: hidden;
+.swiper{
+    width: calc(100% - 4rem);
+}
+    
+  .swiper-slide {
+    box-shadow: none;
     height: 73vh;
-    background-color: #5096FF;
-    width: calc(100% - 60px);
-    margin: 0 auto;
-    border-radius: 25px;
-
-  }
-  
-  .slideshowSlider {
-   height: 100%;
-    white-space: nowrap;
-    transition: ease 1000ms;
-  }
-  
-  .slide {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    position: relative;
-
     .slide-texts{
         position: absolute;
         bottom: 24px;
@@ -44,15 +28,20 @@
         right: 0;
         bottom: 0;
         width: 100%;
-        height: 100%;
+        height: 73vh;
+
         background-color: rgba(20,43,79,.3);
         z-index: 0;
+        border-radius: 25px;
+
     }
     img{
         width: 100%;
-        height: 100%;
+    height: 73vh;
+
         max-width: 100%;
         object-fit: cover;
+        border-radius: 25px;
     }
 }
   
