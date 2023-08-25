@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.11dda463.css",
-    "main.js": "./static/js/main.9e8d37b8.js",
+    "main.css": "./static/css/main.0c42bcb2.css",
+    "main.js": "./static/js/main.5c08638c.js",
     "static/js/787.932c02c3.chunk.js": "./static/js/787.932c02c3.chunk.js",
     "static/media/showreel_2022.mp4": "./static/media/showreel_2022.9c2592e30c2d352d2522.mp4",
     "static/media/s4r_teaser_v7_english.mp4": "./static/media/s4r_teaser_v7_english.b4cd94545eadef30ce3e.mp4",
@@ -68,19 +68,19 @@
     "static/media/empower.png": "./static/media/empower.75a7cff922abf98a96e5.png",
     "static/media/teaser-8.png": "./static/media/teaser-8.75a7cff922abf98a96e5.png",
     "static/media/body-4-5.png": "./static/media/body-4-5.bcd7032987f8f9cc9d93.png",
-    "static/media/ico-instagram.svg": "./static/media/ico-instagram.fa4c1d1ce745186f86ec2a132cd61f33.svg",
-    "static/media/ico-youtube.svg": "./static/media/ico-youtube.6a2544fcd1e5d5e9c0ddd689533246f8.svg",
-    "static/media/logo-blanco.svg": "./static/media/logo-blanco.d3a91dcae90cd55321f989fa191bff36.svg",
+    "static/media/ico-instagram.svg": "./static/media/ico-instagram.9e1cc3e45503772d7c56d09137e8d382.svg",
+    "static/media/ico-youtube.svg": "./static/media/ico-youtube.7ddd220203c6dfd5e32e9c4752cb34da.svg",
+    "static/media/logo-blanco.svg": "./static/media/logo-blanco.43f59555655bbd70cbf240b6a78c7707.svg",
     "index.html": "./index.html",
-    "static/media/logo.svg": "./static/media/logo.17ddd6570f2086950872fdef0678eca4.svg",
-    "static/media/ico-play.svg": "./static/media/ico-play.72b45e1bebcc43fef23b.svg",
-    "static/media/ico-arrow-down.svg": "./static/media/ico-arrow-down.36e7376e69fa29638c89.svg",
-    "main.11dda463.css.map": "./static/css/main.11dda463.css.map",
-    "main.9e8d37b8.js.map": "./static/js/main.9e8d37b8.js.map",
+    "static/media/logo.svg": "./static/media/logo.2f97b280aa495dd7b7c8fb0cecafc078.svg",
+    "static/media/ico-play.svg": "./static/media/ico-play.d0a18410d4548be5737f.svg",
+    "static/media/ico-arrow-down.svg": "./static/media/ico-arrow-down.453a670052f63557a70f.svg",
+    "main.0c42bcb2.css.map": "./static/css/main.0c42bcb2.css.map",
+    "main.5c08638c.js.map": "./static/js/main.5c08638c.js.map",
     "787.932c02c3.chunk.js.map": "./static/js/787.932c02c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11dda463.css",
-    "static/js/main.9e8d37b8.js"
+    "static/css/main.0c42bcb2.css",
+    "static/js/main.5c08638c.js"
   ]
 }
