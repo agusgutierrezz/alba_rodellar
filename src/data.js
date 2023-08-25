@@ -46,8 +46,8 @@ export const workData = [{
   {
     "id": 4,
     "name": "Festival de Sitges",
-    "description": "Platform focused on education, exchange and research, for which it is intended to contact patients, families and professionals to work together in the research of rare pediatric illnesses",
-    "company": "Col·legi de Logopedes de Catalunya",
+    "description": "Change of design of the portal of the renowned Sitges festival. We grant essence of festival, geek, hipster and experience",
+    "company": "Omada",
     "services": ["design", "ilustration", "Social media", "Motion graphics"],
     "image_teaser":require("./assets/header-4.png"),
     "image_header":  require("./assets/header-4.png"),

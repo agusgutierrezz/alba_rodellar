@@ -21,34 +21,33 @@ const Services = () => {
          <p className="number">01</p>
          <p className="title">Creative</p>
          <ul className="categories">
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
+           <li className="category-tag">UX/UI</li>
+           <li className="category-tag">Illustration</li>
+           <li className="category-tag">Video</li>
+           <li className="category-tag">Photography</li>
+           <li className="category-tag">3D</li>
+           <li className="category-tag">Voiceover</li>
+         
          </ul>
          </li>
              <li> 
          <p className="number">02</p>
-         <p  className="title">Creative</p>
+         <p  className="title">Animation</p>
          <ul className="categories">
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-              <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
+           <li className="category-tag">Motion Graphic</li>
+           <li className="category-tag">Rigging</li>
+           <li className="category-tag">Character animation</li>
+
         
          </ul>
          </li>
              <li> 
          <p className="number">03</p>
-         <p className="title">Creative</p>
+         <p className="title">Strategy</p>
          <ul className="categories">
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
-           <li className="category-tag">Branding</li>
+           <li className="category-tag">Identity</li>
+           <li className="category-tag">Restyling</li>
+  
          </ul>
          </li>
          <li></li>
