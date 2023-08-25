@@ -9,7 +9,7 @@ const WorkList = () => {
      
           <Link to={`/works/${data.id}`}>
             <div className="teaser-container" >
-              <img src={data.image_header} />
+              <img src={data.image_teaser} />
               <div className="info">
                 <ul className="services">
                  {data.services.map((service, key) => {

@@ -43,8 +43,8 @@ const [hasVideo,setHasVideo] = useState(thisWork.video ? true : false);
           </div>
           <div className="row">
             <span>Link</span>
-            <a href={thisWork.link.url}>
-              <p>{thisWork.link.text}</p>
+            <a href={thisWork.link.url}  target="_blank">
+              <p className="link">{thisWork.link.text}</p>
             </a>
           </div>
           </div>

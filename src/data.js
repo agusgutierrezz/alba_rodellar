@@ -9,8 +9,8 @@ export const workData = [{
     "assets": ["body-1-1.png", "body-1-2.png", "body-1-3.png"],
     "video":"fecec_2022_horizontal_v4.mp4",
     "link": {
-      "text": "",
-      "url": ""
+      "text": "Menja sa i mou-te!",
+      "url": "https://www.instagram.com/p/CjHyvTOo6C_/"
     }
   },
   {
@@ -23,9 +23,9 @@ export const workData = [{
     "image_header":  require("./assets/header-2.png"),
     "assets": ["body-2-1.png", "body-2-2.png", "body-2-3.png", "body-2-4.png"],
     "link": {
-      "text": "",
-      "url": ""
-    }
+      "text": "Blapp",
+      "url": "https://www.omada.es/blapp/web/"
+      }
   },
   {
     "id": 3,
@@ -39,8 +39,8 @@ export const workData = [{
     "assets":"",
     "video":"postal_nadal_angles_v2.mp4",
     "link": {
-      "text": "",
-      "url": ""
+      "text": "Nadal 2021",
+      "url": "https://youtu.be/6O1s-4wXHuk"
     }
   },
   {
@@ -82,13 +82,14 @@ export const workData = [{
     "assets": ["body-6-1.png"],
     "video":"vidapolis_teaser_update_v3_low.mp4",
     "link": {
-      "text": "",
-      "url": ""
+      "text": "Vidapolis",
+      "url": "https://youtu.be/KzzOR4iotSE"
     }
   }, {
     "id": 7,
     "name": "Col.legi de logopedes",
-    "description": "The Christmas card is always a fun piece to make. Every year different, fun and original. Always trying to use different techniques and get smiles from those who receive it.",
+    "description": "Animation pieces that convey the basics of the College of speech therapists of Catalonia, speech therapy is a dynamic profession, in continuous evolution. It must ensure the well-being of people and the communication between the professionals who form it.",
+    "company": "Col·legi de Logopedes de Catalunya",
     "company": "Omada",
     "services": ["design", "ilustration", "Social media", "Motion graphics"],
     "image_teaser":require("./assets/header-7.png"),
@@ -96,10 +97,9 @@ export const workData = [{
     "assets": ["body-7-1.png","body-7-2.png","body-7-3.png","body-7-4.png","body-7-5.png"],
     "video":"clc_totes_v7.mp4",
     "link": {
-      "text": "",
-      "url": ""
+      "text": "Col.legi de logopedes",
+      "url": "https://www.youtube.com/watch?v=UM_KSkybv_o&t=11s"
     }
-   
   }, {
     "id": 8,
     "name": "Empower",
@@ -140,8 +140,22 @@ export const workData = [{
     "assets":["body-10-1.png","body-10-2.png","body-10-3.png"],
     "video":"s4r_teaser_v7_english.mp4",
     "link": {
-      "text": "",
-      "url": ""
+      "text": "Share4Rare",
+      "url": "https://www.share4rare.org"
     }
   },
-]
+  {
+    "id": 11,
+    "name": "Funny Friends",
+    "description": "Respiratory exercises turned into games to facilitate the patient's understanding of lung work dynamics and adherence to treatment. Designed and validated by specialists",
+    "company": "Hospital Sant Joan de Déu",
+    "services": ["design", "ilustration", "Branding", "UI"],
+    "image_teaser":require("./assets/teaser-11.png"),
+    "image_header":  require("./assets/header-11.png"),
+    "assets":["body-11-1.png","body-11-2.png","body-11-3.png","body-11-4.png","body-11-5.png"],
+    "link": {
+      "text": "Funny Friends",
+      "url": "funnyfriends.omada.es/"
+    }
+  },
+]   
