@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.79f8019c.css",
-    "main.js": "./static/js/main.a76f0f04.js",
+    "main.css": "./static/css/main.11dda463.css",
+    "main.js": "./static/js/main.9e8d37b8.js",
     "static/js/787.932c02c3.chunk.js": "./static/js/787.932c02c3.chunk.js",
     "static/media/showreel_2022.mp4": "./static/media/showreel_2022.9c2592e30c2d352d2522.mp4",
     "static/media/s4r_teaser_v7_english.mp4": "./static/media/s4r_teaser_v7_english.b4cd94545eadef30ce3e.mp4",
@@ -19,10 +19,14 @@
     "static/media/header-4.png": "./static/media/header-4.c3f8f30854630e754acc.png",
     "static/media/blapp.png": "./static/media/blapp.4a0a7b0cfa9848a657c0.png",
     "static/media/body-8-1.png": "./static/media/body-8-1.725a55525fb594e6d4c8.png",
+    "static/media/body-11-3.png": "./static/media/body-11-3.30af905f5f13a385a970.png",
     "static/media/body-7-4.png": "./static/media/body-7-4.9761d75f319cdfd5138e.png",
     "static/media/header-5.png": "./static/media/header-5.0526de572da1f95c3b43.png",
     "static/media/body-5-4.png": "./static/media/body-5-4.da426c8729965ab15b81.png",
+    "static/media/body-11-1.png": "./static/media/body-11-1.20ee93d12fcc6a88e890.png",
     "static/media/header-10.png": "./static/media/header-10.16aa7a08257862cffcc2.png",
+    "static/media/body-11-4.png": "./static/media/body-11-4.6334f4a3ac827e5a7e86.png",
+    "static/media/body-11-2.png": "./static/media/body-11-2.607a4519125b6772552a.png",
     "static/media/body-10-1.png": "./static/media/body-10-1.33b014a3f83fd7301fad.png",
     "static/media/body-1-1.png": "./static/media/body-1-1.185220e559a991817878.png",
     "static/media/body-4-4.png": "./static/media/body-4-4.cf6bd6162e6bc3c16073.png",
@@ -41,6 +45,7 @@
     "static/media/teaser-1.png": "./static/media/teaser-1.c513da039a31ace461f3.png",
     "static/media/body-7-2.png": "./static/media/body-7-2.4d5c51e1e0fd6ee0ad3c.png",
     "static/media/body-8-4.png": "./static/media/body-8-4.6c25a22b978a097cf778.png",
+    "static/media/header-11.png": "./static/media/header-11.357e73afce8c76f28787.png",
     "static/media/body-10-2.png": "./static/media/body-10-2.ae25c20b82e535b47f5e.png",
     "static/media/teaser-3.png": "./static/media/teaser-3.050edd66aed0528637eb.png",
     "static/media/PlayfairDisplay-Regular.ttf": "./static/media/PlayfairDisplay-Regular.27705d9c43e8c36b1abd.ttf",
@@ -56,7 +61,9 @@
     "static/media/vidapolis.png": "./static/media/vidapolis.162479ae0b42165f17cd.png",
     "static/media/body-4-2.png": "./static/media/body-4-2.2cc63888fd6f2e370b8a.png",
     "static/media/body-1-2.png": "./static/media/body-1-2.4b402510808b1034a7c1.png",
+    "static/media/body-11-5.png": "./static/media/body-11-5.9fb86bf896f76777da5a.png",
     "static/media/teaser-9.png": "./static/media/teaser-9.da62c0813e27368593a6.png",
+    "static/media/teaser-11.png": "./static/media/teaser-11.37d9d7592e596dc23822.png",
     "static/media/teaser-2.png": "./static/media/teaser-2.10252a61ba2c1220f017.png",
     "static/media/empower.png": "./static/media/empower.75a7cff922abf98a96e5.png",
     "static/media/teaser-8.png": "./static/media/teaser-8.75a7cff922abf98a96e5.png",
@@ -68,12 +75,12 @@
     "static/media/logo.svg": "./static/media/logo.17ddd6570f2086950872fdef0678eca4.svg",
     "static/media/ico-play.svg": "./static/media/ico-play.72b45e1bebcc43fef23b.svg",
     "static/media/ico-arrow-down.svg": "./static/media/ico-arrow-down.36e7376e69fa29638c89.svg",
-    "main.79f8019c.css.map": "./static/css/main.79f8019c.css.map",
-    "main.a76f0f04.js.map": "./static/js/main.a76f0f04.js.map",
+    "main.11dda463.css.map": "./static/css/main.11dda463.css.map",
+    "main.9e8d37b8.js.map": "./static/js/main.9e8d37b8.js.map",
     "787.932c02c3.chunk.js.map": "./static/js/787.932c02c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79f8019c.css",
-    "static/js/main.a76f0f04.js"
+    "static/css/main.11dda463.css",
+    "static/js/main.9e8d37b8.js"
   ]
 }
